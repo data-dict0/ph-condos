@@ -12,7 +12,6 @@ body {
 
 .title {
   font-size: 75px;
-  color: #ffffff;
   text-align: center;
   font-weight: bold;
   margin-left: auto;
@@ -32,8 +31,11 @@ body {
   right: 18%;
   margin-bottom: auto;
   top: 60%;
-  color: #ffffff;
   font-size: 24px;
+}
+
+.caption {
+  font-size: 11px;
 }
 
 .add_padding {
@@ -76,7 +78,6 @@ a {
 @media only screen and (max-width: 450px) and (min-width: 300px) {
   .title {
     font-size: 38px;
-    color: #ffffff;
     text-align: center;
     font-weight: bold;
     margin-left: auto;
@@ -95,7 +96,6 @@ a {
     top: 60%;
     left: 3%;
     right: 3%;
-    color: #ffffff;
     font-size: 20px;
   }
 
