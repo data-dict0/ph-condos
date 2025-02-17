@@ -9,11 +9,6 @@ body {
   max-width: 700px;
   margin: 0 auto;
 }
-.title-container {
-  position: relative;
-  align-items: center;
-  margin: 0 auto;
-}
 
 .title {
   font-size: 75px;
@@ -26,6 +21,19 @@ body {
   margin-bottom: auto;
   line-height: 1.125;
   position: relative;
+}
+
+.subtitle {
+  text-align: center !important;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  left: 18%;
+  right: 18%;
+  margin-bottom: auto;
+  top: 60%;
+  color: #ffffff;
+  font-size: 24px;
 }
 
 .add_padding {
@@ -48,38 +56,6 @@ a {
   text-decoration-color: #212529;
   color: #212529;
 }
-
-.title {
-  text-align: center !important;
-  position: absolute;
-  left: 18%;
-  right: 18%;
-  top: 30%;
-  color: #333333;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 0 auto;
-}
-
-.dek-container {
-  text-align: center;
-  padding-bottom: 50px;
-  position: relative;
-  margin: 0 auto;
-  top: 10%;
-}
-
-.dek {
-  inline-size: 750px;
-  /* display: flex; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  margin-bottom: 0 auto;
-  color: #333333;
-  display: inline-block;
-  font-size: 18px;
-}
-
 .first-letter {
   font-size: 65px;
   line-height: 55px;
@@ -99,13 +75,28 @@ a {
 
 @media only screen and (max-width: 450px) and (min-width: 300px) {
   .title {
-    text-align: center !important;
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 1.125;
+    position: relative;
+  }
+
+  .subtitle {
+    text-align: center;
     justify-content: center;
     position: absolute;
-    color: #212529;
-    font-size: 25px;
-    font-weight: bold;
-    background: #ffffff;
+    margin: 0 auto;
+    top: 60%;
+    left: 3%;
+    right: 3%;
+    color: #ffffff;
+    font-size: 20px;
   }
 
   .first-letter {
@@ -113,25 +104,6 @@ a {
     line-height: 40px;
     float: left;
     text-indent: 0;
-  }
-
-  .dek-container {
-    text-align: center;
-    position: relative;
-    margin: 0 auto;
-    display: inline-block;
-    padding-top: 7em;
-    padding-bottom: 5em
-  }
-  
-  .dek {
-    text-align: center !important;
-    inline-size: 350px;
-    display: inline-block;
-    margin: 0 auto;
-    position: absolute;
-    color: #333333;
-    font-size: 16px;
   }
 
   html,
