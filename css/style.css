@@ -3,6 +3,7 @@ body {
   font: 'Roboto';
   overflow-x: hidden;
   margin: 10px;
+  text-rendering: optimizeLegibility;
 }
 
 .container {
@@ -93,10 +94,11 @@ a {
     justify-content: center;
     position: absolute;
     margin: 0 auto;
+    text-overflow: clip;
     top: 62%;
-    left: 3%;
-    right: 3%;
-    font-size: 20px;
+    left: 4%;
+    right: 4%;
+    font-size: 18px;
   }
 
   .first-letter {
