@@ -1,0 +1,141 @@
+html,
+body {
+  font: 'Roboto';
+  overflow-x: hidden;
+  margin: 10px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.title-container {
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 75px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 1.125;
+  position: relative;
+}
+
+.add_padding {
+  padding-left: 12px;
+}
+
+.bg-image {
+  background-image: url('https://data-dict0.github.io/ph-condos/assets/condo-units-edited.jpg');
+}
+
+.h4 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration-color: #212529;
+  color: #212529;
+}
+
+.title {
+  text-align: center !important;
+  position: absolute;
+  left: 18%;
+  right: 18%;
+  top: 30%;
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0 auto;
+}
+
+.dek-container {
+  text-align: center;
+  padding-bottom: 50px;
+  position: relative;
+  margin: 0 auto;
+  top: 10%;
+}
+
+.dek {
+  inline-size: 750px;
+  /* display: flex; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-bottom: 0 auto;
+  color: #333333;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.first-letter {
+  font-size: 65px;
+  line-height: 55px;
+  float: left;
+}
+
+.caption {
+  font-size: 11px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* When it's less than 500 pixels wide */
+
+
+@media only screen and (max-width: 450px) and (min-width: 300px) {
+  .title {
+    text-align: center !important;
+    justify-content: center;
+    position: absolute;
+    color: #212529;
+    font-size: 25px;
+    font-weight: bold;
+    background: #ffffff;
+  }
+
+  .first-letter {
+    font-size: 50px;
+    line-height: 40px;
+    float: left;
+    text-indent: 0;
+  }
+
+  .dek-container {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 7em;
+    padding-bottom: 5em
+  }
+  
+  .dek {
+    text-align: center !important;
+    inline-size: 350px;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    color: #333333;
+    font-size: 16px;
+  }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
